@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+          screens:{ 
+       "max-lg" : {"max":"1000px"},
+          },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

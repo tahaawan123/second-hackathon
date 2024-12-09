@@ -14,48 +14,49 @@ function WhyChoseUs() {
   return (
     <div className="bg-[#0D0D0DF2] w-[1920px] h-auto text-white pt-28">
       {/* why chose us container */}
-      <div className="w-[1320px] h-[710px] ml-[300px] flex">
+      <div className="w-[1320px] h-[910px] ml-[300px] flex">
         {/* left side */}
-
-        <div className="w-[650px] h-[700px] grid grid-cols-3 grid-rows-3 gap-4">
+            <div className="w-auto h-auto">
+        <div className=" w-auto h-auto">
           {/* 1st imange */}
-          <div className="col-span-2 row-span-1">
+          <div className="flex gap-4">
             <Image
               src={"/ChoseUs/FirstImg.svg"}
               alt="img1"
               width={362}
               height={356}
             />
-          </div>
           {/* 2nd imange */}
-          <div className="row-span-2 ">
+          
             <Image
               src={"/ChoseUs/SecondImg.svg"}
               alt="img2"
               width={281}
               height={231}
+              className="mt-28"
             />
           </div>
           {/* 3rd imange */}
-          <div className="">
+          <div className="flex gap-4">
             <Image
               src={"/ChoseUs/ThirdImg.svg"}
               alt="img3"
               width={244}
               height={306}
+              className="mt-4"
             />
-          </div>
+          
           {/* 4rth imange */}
-          <div className="">
+         
             <Image
               src={"/ChoseUs/FourthImg.svg"}
               alt="img4"
               width={221}
               height={226}
             />
-          </div>{" "}
+         
           {/* 5th imange */}
-          <div className="">
+        
             <Image
               src={"/ChoseUs/FifthImg.svg"}
               alt="img5"
@@ -64,16 +65,17 @@ function WhyChoseUs() {
             />
           </div>
           {/* 6th imange */}
-          <div className="col-span-1">
+          <div className="">
             <Image
               src={"/ChoseUs/SixthImg.svg"}
               alt="img6"
               width={161}
               height={166}
+              className="float-right mb-16"
             />
           </div>
         </div>
-
+        </div>
         {/* right side */}
         <div className="w-[526px] h-auto ml-28 space-y-7">
           <p className={`${greatVibes.className} text-[32px] text-primary`}>Why Choose us</p>

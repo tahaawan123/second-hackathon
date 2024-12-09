@@ -5,6 +5,11 @@ import FoodCategory from './FoodCategory/page'
 import WhyChoseUs from './FoodCategory/ChoseUs/page'
 import RestaurantDetail from './Restaurant/page'
 import Menu from  './Restaurant/Menu/page'
+import ActiveProcess from './ActiveProcess/page'
+import Client from './Client/page'
+import Chef from './Chef/page'
+import BlogPost from './BlogPost/page'
+
 function page() {
   return (
     <div>
@@ -14,6 +19,10 @@ function page() {
       <WhyChoseUs/>
       <RestaurantDetail/>
       <Menu/>
+      <Chef/>
+      <Client/>
+      <ActiveProcess/>
+      <BlogPost/>
     </div>
   )
 }

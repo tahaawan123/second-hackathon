@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
         {/* content */}
-        <div className="w-[472px] h-[356px] mt-[250px] ml-10 space-y-5">
+        <div className="w-[500px] h-[356px] mt-[250px] ml-10 space-y-5">
           <p className={`${greatVibes.className} text-[32px] text-primary`}>
             Its Quick & Amusing!
           </p>
@@ -53,7 +53,7 @@ const Hero = () => {
           </button>
         </div>
         {/* right side  container */}
-        <div className="mt-[170px] ml-20">
+        <div className="mt-[170px] ml-[150px]">
           <Image src={"/HeroImg/FirstFood.svg"} alt="Food" width={877} height={670} />
         </div>
       </div>
