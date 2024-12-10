@@ -46,4 +46,4 @@ const ActiveProcess = () => {
   )
 }
 
-export default ActiveProcess
+export default ActiveProcess;
