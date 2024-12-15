@@ -7,8 +7,8 @@ import RestaurantDetail from '../components/Restaurant/Restaurant'
 import Menu from  '../components/Menu/Menu'
 import ActiveProcess from '../components/ActiveProcess/Active'
 import Client from '../components/Client/Client'
-import Chef from '../components/Chef/Chef'
-import BlogPost from '../components/BlogPost/Blog'
+import Cheif from '../components/Chef/Chef'
+import Blog from '../components/BlogPost/Blog'
 
 function page() {
   return (
@@ -19,10 +19,10 @@ function page() {
       <WhyChoseUs/>
       <RestaurantDetail/>
       <Menu/>
-      <Chef/>
+      <Cheif/>
       <Client/>
       <ActiveProcess/>
-      <BlogPost/>
+      <Blog/>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { AiOutlineLike } from "react-icons/ai";
 import { LuMessageSquareMore } from "react-icons/lu";
 import { CiShare2 } from "react-icons/ci";
 
-export default function Latest() {
+export default function Blog() {
   return (
     <div className="w-full bg-[#0D0D0DF2] pt-[100px]">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-8">
