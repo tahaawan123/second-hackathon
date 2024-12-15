@@ -7,7 +7,7 @@ const greatVibes = Great_Vibes({
   weight: ["400"],
 });
 
-const Manu = () => {
+const Menu = () => {
   return (
     <div className="bg-[#0D0D0DF2] pt-10 text-white">
       {/* Menu container */}
@@ -114,4 +114,4 @@ const Manu = () => {
   );
 };
 
-export default Manu;
+export default Menu;
