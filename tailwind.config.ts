@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
           screens:{ 
-       "max-lg" : {"max":"1000px"},
+       "max-xl" : {"max":"1300px"},
           },
 
       colors: {
