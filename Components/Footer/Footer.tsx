@@ -22,7 +22,7 @@ export default function Footer() {
               Support?
             </h3>
             <p className="text-base text-gray-300">
-              Don't wait! Make a smart & logical quote here. It's pretty easy.
+              Don&#44;t wait! Make a smart & logical quote here. It&#44;s pretty easy.
             </p>
           </div>
 
