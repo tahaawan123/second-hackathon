@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { FaAngleDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { PiHandbagBold } from "react-icons/pi";
@@ -19,17 +20,18 @@ function Header() {
           {/* Navigation Links */}
           <ul className="flex flex-wrap gap-4 justify-center md:justify-start text-sm md:text-base">
             <li className="relative">
-              Home
+            <Link href={"./"}>Home</Link>  
               <p className="w-[7px] h-[7px] bg-primary absolute left-1/2 transform -translate-x-1/2 mt-1 rounded-full"></p>
             </li>
-            <li>Menu</li>
-            <li>Blog</li>
-            <li>Pages</li>
+            <li><Link href={"/Menu"}> Menu</Link></li>
+            <li><Link href={"/Blog"}>Blog</Link></li>
+            <li><Link href={"/Pages"}>Pages</Link></li>
             <li className="flex items-center">
-              About <FaAngleDown className="ml-1" />
+            <Link href={"/About"}>    About <FaAngleDown className="ml-1" />
+            </Link>
             </li>
-            <li>Shop</li>
-            <li>Contact</li>
+            <li><Link href={"/Shop"}>Shop</Link></li>
+            <li><Link href={"/Contact"}>Contact</Link></li>
           </ul>
 
           {/* Search and Icons */}

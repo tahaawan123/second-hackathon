@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { Inter } from "next/font/google";
  
@@ -37,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${inter.className}`}
       >
-        <Header />
+      
         {children}
         <Footer />
       </body>

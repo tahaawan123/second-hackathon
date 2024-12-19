@@ -9,10 +9,13 @@ import ActiveProcess from '../components/ActiveProcess/Active'
 import Client from '../components/Client/Client'
 import Cheif from '../components/Chef/Chef'
 import Blog from '../components/BlogPost/Blog'
+import Header from "@/components/Header/Header";
+
 
 function page() {
   return (
     <div>
+      <Header/>
       <Hero/>
       <AboutUs/>
       <FoodCategory/>
