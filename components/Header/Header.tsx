@@ -24,14 +24,14 @@ function Header() {
               <p className="w-[7px] h-[7px] bg-primary absolute left-1/2 transform -translate-x-1/2 mt-1 rounded-full"></p>
             </li>
             <li><Link href={"/Menu"}> Menu</Link></li>
-            <li><Link href={"#"}>Blog</Link></li>
-            <li><Link href={"#"}>Pages</Link></li>
+            <li><Link href={"/BlogPage"}>Blog</Link></li>
+            <li><Link href={"/Pages"}>Pages</Link></li>
             <li className="flex items-center">
             <Link href={"#"}>    About <FaAngleDown className="ml-1" />
             </Link>
             </li>
             <li><Link href={"#"}>Shop</Link></li>
-            <li><Link href={"#"}>Contact</Link></li>
+            <li><Link href={"/ContactPage"}>Contact</Link></li>
           </ul>
 
           {/* Search and Icons */}

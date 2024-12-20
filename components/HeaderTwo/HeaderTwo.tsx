@@ -25,19 +25,19 @@ function HeaderTwo() {
               <Link href="/Menu">Menu</Link>
             </li>
             <li>
-              <Link href="/Blog">Blog</Link>
+              <Link href="/BlogPage">Blog</Link>
             </li>
             <li>
               <Link href="/Pages">Pages</Link>
             </li>
             <li>
-              <Link href="/About">About</Link>
+              <Link href="#">About</Link>
             </li>
             <li>
-              <Link href="/Shop">Shop</Link>
+              <Link href="#">Shop</Link>
             </li>
             <li>
-              <Link href="/Contact">Contact</Link>
+              <Link href="/ContactPage">Contact</Link>
             </li>
           </ul>
 
@@ -62,19 +62,19 @@ function HeaderTwo() {
             <Link href="/Menu">Menu</Link>
           </li>
           <li>
-            <Link href="/Blog">Blog</Link>
+            <Link href="/BlogPage">Blog</Link>
           </li>
           <li>
             <Link href="/Pages">Pages</Link>
           </li>
           <li>
-            <Link href="/About">About</Link>
+            <Link href="#">About</Link>
           </li>
           <li>
-            <Link href="/Shop">Shop</Link>
+            <Link href="#">Shop</Link>
           </li>
           <li>
-            <Link href="/Contact">Contact</Link>
+            <Link href="/ContactPage">Contact</Link>
           </li>
         </ul>
       </header>

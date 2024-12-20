@@ -12,32 +12,36 @@ const Menu = () => {
       <HeaderTwo />
       {/* Hero Image */}
       <div className="relative">
-        <Image
-          src={"/Hero2/Hero2.svg"}
-          alt="pic"
-          height={410}
-          width={1920}
-          className="w-full"
-        />
-        <div className="w-[250px] h-[104px] text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 sm:w-[300px] sm:h-auto">
-          <h1 className="font-bold text-[24px] sm:text-[36px] lg:text-[48px]">
-            Our Menu
-          </h1>
-          <ul className="flex gap-2 justify-center text-sm sm:text-base mt-2">
-            <li>
-              <Link href={"./"}>Home</Link>
-            </li>
-            <li className="flex items-center">
-              <FaAngleRight />
-            </li>
-            <li>
-              <Link href={"/Menu"} className="text-primary">
-                Menu
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <Image
+    src={"/Hero2/Hero2.svg"}
+    alt="pic"
+    height={410}
+    width={1920}
+    className="w-full h-auto"
+  />
+  <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4 w-[90%] max-w-[300px] sm:max-w-[400px]">
+    {/* Title */}
+    <h1 className="text-white font-bold text-[20px] sm:text-[28px] md:text-[36px] lg:text-[48px]">
+      Our Menu
+    </h1>
+    
+    {/* Breadcrumb Navigation */}
+    <ul className="flex gap-2 justify-center text-xs sm:text-sm md:text-base mt-2 text-white">
+      <li>
+        <Link href={"./"}>Home</Link>
+      </li>
+      <li className="flex items-center">
+        <FaAngleRight />
+      </li>
+      <li>
+        <Link href={"/Menu"} className="text-primary">
+          Menu
+        </Link>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
       {/*     Starter  Menu Section */}
       <div className="w-full max-w-[1320px] h-auto mt-20 flex flex-col md:flex-row gap-8 mx-auto">
