@@ -30,7 +30,7 @@ function Header() {
             <Link href={"#"}>    About <FaAngleDown className="ml-1" />
             </Link>
             </li>
-            <li><Link href={"#"}>Shop</Link></li>
+            <li><Link href={"/Shop"}>Shop</Link></li>
             <li><Link href={"/ContactPage"}>Contact</Link></li>
           </ul>
 

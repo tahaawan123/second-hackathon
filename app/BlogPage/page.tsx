@@ -493,7 +493,7 @@ const BlogPage = () => {
 
       <div className="w-full flex justify-center my-10">
         <div className="flex gap-3 text-primary">
-          <div className="w-[50px] h-[50px] flex items-center justify-center">
+          <div className="w-[50px] h-[50px] border-[2px] flex items-center justify-center">
             <FaAngleDoubleLeft />
           </div>
           <div className="w-[50px] h-[50px] border-[2px] flex items-center justify-center">

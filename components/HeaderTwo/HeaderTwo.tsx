@@ -34,7 +34,7 @@ function HeaderTwo() {
               <Link href="#">About</Link>
             </li>
             <li>
-              <Link href="#">Shop</Link>
+              <Link href="/Shop">Shop</Link>
             </li>
             <li>
               <Link href="/ContactPage">Contact</Link>
@@ -71,7 +71,7 @@ function HeaderTwo() {
             <Link href="#">About</Link>
           </li>
           <li>
-            <Link href="#">Shop</Link>
+            <Link href="/Shop">Shop</Link>
           </li>
           <li>
             <Link href="/ContactPage">Contact</Link>
